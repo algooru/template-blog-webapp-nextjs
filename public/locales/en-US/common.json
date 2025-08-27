@@ -4,21 +4,21 @@
     "featured": "featured"
   },
   "landingPage": {
-    "latestArticles": "Latest articles"
+    "latestArticles": "Latest travel stories"
   },
   "common": {
     "regionalSettings": "Regional Settings",
-    "homepage": "Homepage",
+    "homepage": "Olyezy - A Different Light On Travel",
     "language": "Language",
     "languageDrawer": "Toggle language drawer"
   },
   "footer": {
-    "aboutUs": "about us",
-    "description": "Our company specialises in the development of advanced technologies for a wide range of industries. We use cutting-edge techniques and algorithms to create intelligent systems that can help businesses automate tasks, improve efficiency, and drive innovation.",
+    "aboutUs": "about Olyezy",
+    "description": "Olyezy brings you a different perspective on travel. We share unique insights, hidden gems, and authentic experiences that illuminate the world in ways you've never seen before. Discover travel through our lens.",
     "powerBy": "Powered by"
   },
   "notFound": {
     "title": "Page not found",
-    "description": "This page doesn't seem to exist. <0>Click here</0> to go back the homepage."
+    "description": "This page doesn't seem to exist. <0>Click here</0> to go back to Olyezy homepage."
   }
 }

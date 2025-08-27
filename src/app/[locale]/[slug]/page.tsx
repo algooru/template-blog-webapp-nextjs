@@ -21,20 +21,14 @@ export async function generateMetadata({
     locales.map(locale => [locale, locale === defaultLocale ? `/${slug}` : `/${locale}/${slug}`]),
   );
   const metadata: Metadata = {
+    title: blogPost?.title ? `${blogPost.title} | Olyezy` : 'Olyezy Blog Post',
+    description:
+      blogPost?.shortDescription || 'Discover unique travel insights and experiences with Olyezy',
     alternates: {
       canonical: slug,
       languages,
     },
   };
-
-  if (blogPost?.seoFields) {
-    metadata.title = blogPost.seoFields.pageTitle;
-    metadata.description = blogPost.seoFields.pageDescription;
-    metadata.robots = {
-      follow: !blogPost.seoFields.nofollow,
-      index: !blogPost.seoFields.noindex,
-    };
-  }
 
   return metadata;
 }

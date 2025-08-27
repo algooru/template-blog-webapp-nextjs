@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <!-- Shield/Cup Icon -->
+  <g transform="translate(20, 20)">
+    <path d="M40 0 L80 20 L80 60 Q80 80 40 80 Q0 80 0 60 L0 20 Z" fill="#333333"/>
+    <circle cx="40" cy="35" r="20" fill="white"/>
+  </g>
+  
+  <!-- OLYEZY Text -->
+  <g transform="translate(120, 30)" fill="#333333">
+    <!-- O -->
+    <path d="M0 0 Q0 -5 5 -5 L15 -5 Q20 -5 20 0 L20 40 Q20 45 15 45 L5 45 Q0 45 0 40 Z M8 8 L12 8 L12 32 L8 32 Z"/>
+    
+    <!-- L -->
+    <path d="M35 0 L35 40 L60 40 L60 32 L43 32 L43 0 Z"/>
+    
+    <!-- Y -->
+    <path d="M75 0 L85 20 L95 0 L103 0 L88 25 L88 40 L80 40 L80 25 L67 0 Z"/>
+    
+    <!-- E -->
+    <path d="M115 0 L115 40 L140 40 L140 32 L123 32 L123 25 L138 25 L138 17 L123 17 L123 8 L140 8 L140 0 Z"/>
+    
+    <!-- Z -->
+    <path d="M155 0 L155 8 L170 8 L155 32 L155 40 L180 40 L180 32 L165 32 L180 8 L180 0 Z"/>
+    
+    <!-- Y -->
+    <path d="M195 0 L205 20 L215 0 L223 0 L208 25 L208 40 L200 40 L200 25 L187 0 Z"/>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="120" y="90" font-family="Arial, sans-serif" font-size="14" fill="#666666">A Different Light On Travel</text>
+</svg>

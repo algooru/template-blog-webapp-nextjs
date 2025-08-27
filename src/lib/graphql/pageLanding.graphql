@@ -5,9 +5,9 @@ fragment PageLandingFields on PageLanding {
     spaceId
   }
   internalName
-  seoFields {
-    ...SeoFields
-  }
+  # seoFields {
+  #   ...SeoFields
+  # }
   featuredBlogPost {
     ...ReferencePageBlogPostFields
   }

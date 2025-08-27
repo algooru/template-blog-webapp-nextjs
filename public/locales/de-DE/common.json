@@ -4,22 +4,21 @@
     "featured": "gekennzeichnet"
   },
   "landingPage": {
-    "latestArticles": "Neueste Artikel"
+    "latestArticles": "Neueste Reisegeschichten"
   },
   "common": {
-    "homepage": "Startseite",
+    "homepage": "Olyezy - Ein anderes Licht auf das Reisen",
     "regionalSettings": "Regionale Einstellungen",
     "language": "Sprache",
     "languageDrawer": "Sprachschublade umschalten"
-
   },
   "footer": {
-    "aboutUs": "über uns",
-    "description": "Unser Unternehmen ist auf die Entwicklung fortschrittlicher Technologien für eine Vielzahl von Branchen spezialisiert. Wir verwenden modernste Techniken und Algorithmen, um intelligente Systeme zu erstellen, die Unternehmen dabei helfen können, Aufgaben zu automatisieren, die Effizienz zu verbessern und Innovationen voranzutreiben.",
+    "aboutUs": "über Olyezy",
+    "description": "Olyezy bringt Ihnen eine andere Perspektive auf das Reisen. Wir teilen einzigartige Einblicke, versteckte Schätze und authentische Erfahrungen, die die Welt auf eine Weise beleuchten, die Sie noch nie gesehen haben. Entdecken Sie Reisen durch unsere Brille.",
     "powerBy": "Unterstützt von"
   },
   "notFound": {
     "title": "Seite nicht gefunden",
-    "description": "Diese Seite scheint nicht zu existieren. <0>Klicken Sie hier</0>, um zur Startseite zurückzukehren."
+    "description": "Diese Seite scheint nicht zu existieren. <0>Klicken Sie hier</0>, um zur Olyezy-Startseite zurückzukehren."
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "template-blog-webapp-nextjs",
-  "version": "0.1.0",
+  "name": "olyezy-blog",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": ">=18",
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "dev": "next dev",
+    "dev": "next dev --port 3023",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

@@ -27,19 +27,14 @@ export async function generateMetadata({ params }: LandingPageProps): Promise<Me
     locales.map(locale => [locale, locale === defaultLocale ? '/' : `/${locale}`]),
   );
   const metadata: Metadata = {
+    title: page?.internalName || 'Olyezy Blog - A Different Light On Travel',
+    description:
+      'Discover unique travel experiences and insights through the lens of Olyezy. A different perspective on travel, culture, and adventure.',
     alternates: {
       canonical: '/',
       languages: languages,
     },
   };
-  if (page?.seoFields) {
-    metadata.title = page.seoFields.pageTitle;
-    metadata.description = page.seoFields.pageDescription;
-    metadata.robots = {
-      follow: !page.seoFields.nofollow,
-      index: !page.seoFields.noindex,
-    };
-  }
 
   return metadata;
 }
@@ -85,7 +80,7 @@ export default async function Page({ params: { locale } }: LandingPageProps) {
       {/*  <div className="my-5 bg-colorTextLightest p-5 text-colorBlueLightest">{page.greeting}</div>*/}
       {/*</Container>*/}
 
-      <Container className="my-8  md:mb-10 lg:mb-16">
+      <Container className="my-8 md:mb-10 lg:mb-16">
         <h2 className="mb-4 md:mb-6">{t('landingPage.latestArticles')}</h2>
         <ArticleTileGrid className="md:grid-cols-2 lg:grid-cols-3" articles={posts} />
       </Container>

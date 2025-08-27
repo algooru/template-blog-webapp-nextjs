@@ -23,9 +23,9 @@ fragment PageBlogPostFields on PageBlogPost {
     spaceId
   }
   internalName
-  seoFields {
-    ...SeoFields
-  }
+  # seoFields {
+  #   ...SeoFields
+  # }
   slug
   author {
     ...AuthorFields

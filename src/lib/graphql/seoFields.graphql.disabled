@@ -1,4 +1,4 @@
-fragment SeoFields on ComponentSeo {
+fragment SeoFields on componentSeo {
   __typename
   pageTitle
   pageDescription
