@@ -1,7 +1,7 @@
 import { LanguageIcon, ChevronDownIcon, ChevronUpIcon } from '@contentful/f36-icons';
-import { useCurrentLocale } from 'next-i18n-router/client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useCurrentLocale } from 'next-i18n-router/client';
 import { KeyboardEvent, useEffect, useRef, useState } from 'react';
 import FocusLock from 'react-focus-lock';
 import { twMerge } from 'tailwind-merge';
@@ -96,7 +96,7 @@ export const LanguageSelectorDesktop = ({ localeName, onChange, displayName }) =
         className="flex items-center font-normal uppercase"
         onClick={() => setIsOpen(currentState => !currentState)}
       >
-        <LanguageIcon width="18px" height="18px" variant="secondary" className="mr-1 ml-1" />
+        <LanguageIcon width="18px" height="18px" variant="secondary" className="ml-1 mr-1" />
         {localeName(currentLocale)}
         {isOpen ? (
           <ChevronUpIcon variant="secondary" className="pl-1" />

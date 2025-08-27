@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Olyezy - A Different Light On Travel",
+    "short_name": "Olyezy",
+    "description": "Discover unique travel experiences and insights through the lens of Olyezy",
     "icons": [
         {
             "src": "/favicons/android-chrome-192x192.png",
@@ -13,7 +14,9 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#333333",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/"
 }
